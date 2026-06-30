@@ -1,0 +1,25 @@
+{
+  "greeting": "Hello! Welcome to our support. I can help you with information about any of our products.",
+  "fallback": "I'm sorry, I didn't understand that. Could you please rephrase or choose an option below?",
+  "main_menu": [
+    "View Our Products",
+    "General Support",
+    "Contact Sales/Agent"
+  ],
+  "products": {
+    "Product 1": {
+      "description": "This is a placeholder description for your first product. It can be software, a physical item, or a service.",
+      "price": "Custom Pricing",
+      "features": "Feature A, Feature B, Feature C"
+    },
+    "Product 2": {
+      "description": "Description for your second product.",
+      "price": "$50/month",
+      "features": "Feature X, Feature Y"
+    }
+  },
+  "faq": {
+    "support": "Our support team is available 24/7. You can reach us at support@example.com.",
+    "agent": "Transferring you to a human agent... (This is a demo!)"
+  }
+}

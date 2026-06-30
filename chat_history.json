@@ -1,0 +1,425 @@
+{
+    "43ac6ee6-6662-40ea-a044-eb99e077877e": {
+        "title": "New Chat 2026-06-30 15:50",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            }
+        ],
+        "step": "MAIN_MENU",
+        "filters": {}
+    },
+    "83c91ce3-700c-4038-8ce6-08650bd2b768": {
+        "title": "\ud83d\udd0d Search Products",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Services"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "IT Services"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Custom Software Development"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Bhavnagar"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "Below \u20b91,000"
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 5 product(s) for your selection:**\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n"
+            },
+            {
+                "role": "user",
+                "content": "Below \u20b91,000"
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 5 product(s) for your selection:**\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n- **Customized Software Solution**\n  - Company: Ravi Techworld\n  - Price: \u20b9420.0\n  - Location: Bhavnagar\n\n"
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Construction"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "Flooring & Wall Covering"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Wooden Flooring"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Amreli"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "Below \u20b91,000"
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 5 product(s) for your selection:**\n\n- **Wooden Flooring, 8mm, for Indoor**\n  - Company: Interior Hub\n  - Price: \u20b9420.0\n  - Location: Amreli\n\n- **Wooden Flooring, 8mm, for Indoor**\n  - Company: Interior Hub\n  - Price: \u20b9420.0\n  - Location: Amreli\n\n- **Wooden Flooring, 8mm, for Indoor**\n  - Company: Interior Hub\n  - Price: \u20b9420.0\n  - Location: Amreli\n\n- **Wooden Flooring, 8mm, for Indoor**\n  - Company: Interior Hub\n  - Price: \u20b9420.0\n  - Location: Amreli\n\n- **Wooden Flooring, 8mm, for Indoor**\n  - Company: Interior Hub\n  - Price: \u20b9420.0\n  - Location: Amreli\n\n"
+            }
+        ],
+        "step": "END",
+        "filters": {
+            "main_category": "Construction",
+            "category": "Flooring & Wall Covering",
+            "subcategory": "Wooden Flooring",
+            "location": "Amreli",
+            "budget": "Below \u20b91,000"
+        }
+    },
+    "b603da73-78df-48c4-90b0-1871ba7c2b51": {
+        "title": "\ud83d\udd0d Search Products",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Construction"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "Flooring & Wall Covering"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Vitrified Tiles"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Morbi - Deals in Amreli"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "Above \u20b9200"
+            },
+            {
+                "role": "assistant",
+                "content": "Sorry, I couldn't find any products matching those filters."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Industrial"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "Safety Equipment"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Safety Helmets"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Junagadh"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "Below \u20b9400"
+            },
+            {
+                "role": "assistant",
+                "content": "Sorry, I couldn't find any products matching those filters."
+            }
+        ],
+        "step": "END",
+        "filters": {
+            "main_category": "Industrial",
+            "category": "Safety Equipment",
+            "subcategory": "Safety Helmets",
+            "location": "Junagadh",
+            "budget": "Below \u20b9400"
+        }
+    },
+    "a6cde703-98a4-4a9f-b08f-6494d9b97fed": {
+        "title": "\ud83d\udd0d Search Products",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Electronics"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "Home Appliances"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Vacuum Cleaner"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Any Location"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "\u20b9400 - \u20b9800"
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 10 product(s) for your selection:**\n\n- **Aeroclean 2 in 1 Handheld Car Vacuum Cleaner with Blower (150 mbar, 12V)**\n  - Company: Shakti Technology (A Brand Of Pacific Overseas)\n  - Price: \u20b9420.0\n\n- **Vacuum Cleaner, Model VC-90, 10 Litter**\n  - Company: Gokul Electricals\n  - Price: \u20b9420.0\n\n- **Dry Vacuum Cleaner, for Car**\n  - Company: D-Well Tools Corporation\n  - Price: \u20b9420.0\n\n- **2 in 1 Household Vacuum Cleaner 1 Ltr. Large Capacity Dust Cup (1 Pc / 600W) 15217**\n  - Company: Deodap\n  - Price: \u20b9420.0\n\n- **35 Liter Wet And Dry Vacuum Cleaner, for Commercial use**\n  - Company: Mini Engineering\n  - Price: \u20b9420.0\n\n- **Vacuum Cleaner**\n  - Company: Reasonable Tools Corporation\n  - Price: \u20b9420.0\n\n- **Bagless Stick Electrical Vacuum Cleaner (600W)**\n  - Company: Bhavesh Tools Centre\n  - Price: \u20b9420.0\n\n- **MS-SS 3 Phase Heavy Duty Industrial Vacuum Cleaner, Model Name/Number: 3-50**\n  - Company: Saakar Sales And Service\n  - Price: \u20b9420.0\n\n- **Industrial Wet & Dry Vacuum Cleaner**\n  - Company: KT Dynamics\n  - Price: \u20b9420.0\n\n- **IPC Lava Wet & Dry Vacuum Cleaner, 1200 W**\n  - Company: P . Prabhudas And Co.\n  - Price: \u20b9420.0\n\n"
+            },
+            {
+                "role": "user",
+                "content": "mobile "
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 5 product(s) matching 'mobile':**\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n"
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            }
+        ],
+        "step": "MAIN_MENU",
+        "filters": {}
+    },
+    "abd89dde-916e-447a-a74c-fff39e411594": {
+        "title": "\ud83d\udd0d Search Products",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Textiles"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "Fabric & Textiles"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Cotton Fabric"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Jetpur"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "Above \u20b9400"
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 8 product(s) for your selection:**\n\n- **Gamathi Cotton Fabric**\n  - Company: Priyanka Fabrics\n  - Price: \u20b9525.0\n  - Location: Jetpur\n\n- **Cotton Material Manufacturer, Plain/Solids**\n  - Company: A D Textile\n  - Price: \u20b9420.0\n  - Location: Jetpur\n\n- **Gamathi Cotton Fabric**\n  - Company: Priyanka Fabrics\n  - Price: \u20b9525.0\n  - Location: Jetpur\n\n- **Cotton Material Manufacturer, Plain/Solids**\n  - Company: A D Textile\n  - Price: \u20b9420.0\n  - Location: Jetpur\n\n- **Gamathi Cotton Fabric**\n  - Company: Priyanka Fabrics\n  - Price: \u20b9525.0\n  - Location: Jetpur\n\n- **Cotton Material Manufacturer, Plain/Solids**\n  - Company: A D Textile\n  - Price: \u20b9420.0\n  - Location: Jetpur\n\n- **Gamathi Cotton Fabric**\n  - Company: Priyanka Fabrics\n  - Price: \u20b9525.0\n  - Location: Jetpur\n\n- **Cotton Material Manufacturer, Plain/Solids**\n  - Company: A D Textile\n  - Price: \u20b9420.0\n  - Location: Jetpur\n\n"
+            },
+            {
+                "role": "user",
+                "content": "\u2b50\u2b50\u2b50\u2b50\u2b50 Excellent"
+            },
+            {
+                "role": "assistant",
+                "content": "Any additional comments? Please type them below."
+            },
+            {
+                "role": "user",
+                "content": "hi"
+            },
+            {
+                "role": "assistant",
+                "content": "Thank you for your valuable feedback!"
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            }
+        ],
+        "step": "MAIN_MENU",
+        "filters": {}
+    }
+}
