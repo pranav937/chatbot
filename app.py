@@ -156,14 +156,13 @@ if prompt:
     append_message("user", prompt)
     set_auto_title(prompt)
     
-    # State machine routing for text inputs
     if current_chat["step"] == "COMPLAINT_2":
         append_message("assistant", f"Thank you. Your complaint has been registered with Ticket ID #APP-{len(prompt) + 10000}. We will resolve it soon.")
-        current_chat["step"] = "END"
+        current_chat["step"] = "RESOLUTION_CHECK"
         
     elif current_chat["step"] == "ORDER_1":
         append_message("assistant", f"Checking... Order {prompt} is currently in transit and will be delivered within 2-3 business days.")
-        current_chat["step"] = "END"
+        current_chat["step"] = "RESOLUTION_CHECK"
         
     elif current_chat["step"] == "FEEDBACK_2":
         append_message("assistant", "Thank you for your valuable feedback!")
@@ -173,7 +172,6 @@ if prompt:
         # Process free-text chat/search as fallback
         response = bot.search_products_by_keyword(prompt)
         append_message("assistant", response)
-        current_chat["step"] = "END"
         
     update_current_chat()
     st.rerun()
@@ -205,7 +203,7 @@ if current_chat["step"] == "MAIN_MENU":
                 append_message("assistant", "Are you a new customer or an existing customer?")
             elif "Offers" in option:
                 append_message("assistant", "Here are our current offers:\n1. 10% off on all Construction materials.\n2. Free shipping on orders over ₹5,000.")
-                current_chat["step"] = "END"
+                current_chat["step"] = "RESOLUTION_CHECK"
                 
             update_current_chat()
             st.rerun()
@@ -247,7 +245,7 @@ elif current_chat["step"].startswith("SEARCH_"):
             else:
                 response = bot.search_filtered_products(current_chat["filters"])
                 append_message("assistant", response)
-                current_chat["step"] = "END"
+                current_chat["step"] = "RESOLUTION_CHECK"
                 
             update_current_chat()
             st.rerun()
@@ -282,7 +280,7 @@ elif current_chat["step"] == "SUPPORT_1":
                 reply = "Transferring you to a human agent... (This is a demo!)"
                 
             append_message("assistant", reply)
-            current_chat["step"] = "END"
+            current_chat["step"] = "RESOLUTION_CHECK"
             update_current_chat()
             st.rerun()
 
@@ -295,9 +293,23 @@ elif current_chat["step"] == "SALES_1":
             append_message("user", option)
             reply = f"Thank you, {option}. You can reach our sales team at sales@example.com or call +91-9876543210."
             append_message("assistant", reply)
-            current_chat["step"] = "END"
+            current_chat["step"] = "RESOLUTION_CHECK"
             update_current_chat()
             st.rerun()
+
+elif current_chat["step"] == "RESOLUTION_CHECK":
+    st.write("### Did this resolve your query?")
+    cols = st.columns(2)
+    if cols[0].button("✅ Yes", key=f"btn_res_yes_{len(current_chat['messages'])}", use_container_width=True):
+        append_message("user", "Yes, it was helpful.")
+        current_chat["step"] = "END"
+        update_current_chat()
+        st.rerun()
+    if cols[1].button("❌ No", key=f"btn_res_no_{len(current_chat['messages'])}", use_container_width=True):
+        append_message("user", "No, I need more help.")
+        current_chat["step"] = "END"
+        update_current_chat()
+        st.rerun()
 
 elif current_chat["step"] == "END":
     st.write("### How was your experience?")

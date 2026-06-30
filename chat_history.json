@@ -421,5 +421,210 @@
         ],
         "step": "MAIN_MENU",
         "filters": {}
+    },
+    "e115d065-6221-4655-8d98-831309ef72a2": {
+        "title": "\ud83d\udd0d Search Products",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Textiles"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "Home Textiles"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Blankets"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Upleta"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "\u20b9300 - \u20b9600"
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 5 product(s) for your selection:**\n\n- **Polyester 180 GSM Dark Brown Printed Mink Blanket**\n  - Company: Zamzam Trading Company\n  - Price: \u20b9320.0\n  - Location: Upleta\n\n- **Polyester 180 GSM Dark Brown Printed Mink Blanket**\n  - Company: Zamzam Trading Company\n  - Price: \u20b9320.0\n  - Location: Upleta\n\n- **Polyester 180 GSM Dark Brown Printed Mink Blanket**\n  - Company: Zamzam Trading Company\n  - Price: \u20b9320.0\n  - Location: Upleta\n\n- **Polyester 180 GSM Dark Brown Printed Mink Blanket**\n  - Company: Zamzam Trading Company\n  - Price: \u20b9320.0\n  - Location: Upleta\n\n- **Polyester 180 GSM Dark Brown Printed Mink Blanket**\n  - Company: Zamzam Trading Company\n  - Price: \u20b9320.0\n  - Location: Upleta\n\n"
+            },
+            {
+                "role": "user",
+                "content": "\u2b50\u2b50\u2b50\u2b50\u2b50 Excellent"
+            },
+            {
+                "role": "assistant",
+                "content": "Any additional comments? Please type them below."
+            }
+        ],
+        "step": "FEEDBACK_2",
+        "filters": {
+            "main_category": "Textiles",
+            "category": "Home Textiles",
+            "subcategory": "Blankets",
+            "location": "Upleta",
+            "budget": "\u20b9300 - \u20b9600"
+        }
+    },
+    "3620985e-3281-4a1c-91ed-09e1dcb81069": {
+        "title": "\ud83d\udd0d Search Products",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "hi"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! How can I help you today? You can search for a product or use the buttons above."
+            }
+        ],
+        "step": "END",
+        "filters": {}
+    },
+    "32f3d058-664e-4573-a388-1d09f3e5f435": {
+        "title": "\ud83d\udd0d Search Products",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "Good afternoon! Welcome to our support. I can help you with information about our products or other services."
+            },
+            {
+                "role": "assistant",
+                "content": "How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "\ud83d\udd0d Search Products"
+            },
+            {
+                "role": "assistant",
+                "content": "Which main category are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "hi"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! How can I help you today? You can search for a product or use the buttons above."
+            },
+            {
+                "role": "user",
+                "content": "Textiles"
+            },
+            {
+                "role": "assistant",
+                "content": "Great! Which category within that?"
+            },
+            {
+                "role": "user",
+                "content": "mobile "
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 5 product(s) matching 'mobile':**\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n- **Mobile Manual Hydraulic Floor Crane, 2000 mm, 2 ton**\n  - Company: Sapti Material Handling Equipment\n  - Price: \u20b95043.0\n  - Location: Rajkot\n\n"
+            },
+            {
+                "role": "user",
+                "content": "Textile Machinery"
+            },
+            {
+                "role": "assistant",
+                "content": "Please select a specific sub-category:"
+            },
+            {
+                "role": "user",
+                "content": "Fabric Cutting Machine"
+            },
+            {
+                "role": "assistant",
+                "content": "Where are you located?"
+            },
+            {
+                "role": "user",
+                "content": "Ahmedabad - Deals in Amreli"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your preferred price range?"
+            },
+            {
+                "role": "user",
+                "content": "\u20b95,000 - \u20b910,000"
+            },
+            {
+                "role": "assistant",
+                "content": "**Found 10 product(s) for your selection:**\n\n- **Jitsui Fabric Cutting Machine**\n  - Company: Golden Enterprise\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Laser Fabric Cutting Machine, Capacity: 100watt**\n  - Company: Mehta Hitech Industries Limited\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Automatic 40 Pcs/Min Woven Fabric Cutting Machine**\n  - Company: Rentech Machine Private Limited\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Automatic Woven Fabric Cutting Machine, Production Capacity: 30-40 Bags/Min, Sack width range: 300-800 mm**\n  - Company: S. Mark Engineers\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Fabric Cutting Machine**\n  - Company: Gurutata Agency\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Jitsui Fabric Cutting Machine**\n  - Company: Golden Enterprise\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Laser Fabric Cutting Machine, Capacity: 100watt**\n  - Company: Mehta Hitech Industries Limited\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Automatic 40 Pcs/Min Woven Fabric Cutting Machine**\n  - Company: Rentech Machine Private Limited\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Automatic Woven Fabric Cutting Machine, Production Capacity: 30-40 Bags/Min, Sack width range: 300-800 mm**\n  - Company: S. Mark Engineers\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n- **Fabric Cutting Machine**\n  - Company: Gurutata Agency\n  - Price: \u20b95043.0\n  - Location: Ahmedabad - Deals in Amreli\n\n"
+            },
+            {
+                "role": "user",
+                "content": "Yes, it was helpful."
+            },
+            {
+                "role": "user",
+                "content": "\u2b50\u2b50\u2b50\u2b50\u2b50 Excellent"
+            },
+            {
+                "role": "assistant",
+                "content": "Any additional comments? Please type them below."
+            }
+        ],
+        "step": "FEEDBACK_2",
+        "filters": {
+            "main_category": "Textiles",
+            "category": "Textile Machinery",
+            "subcategory": "Fabric Cutting Machine",
+            "location": "Ahmedabad - Deals in Amreli",
+            "budget": "\u20b95,000 - \u20b910,000"
+        }
     }
 }
